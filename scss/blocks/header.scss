@@ -1,0 +1,65 @@
+.header {
+    /*    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0; */
+    background-image: url(../../images/mavic-top-bg.jpg);
+    /* min-height: 100vh; */
+    min-height: 768px;
+    /* background-image: url(../images/bg.jpg); */
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    padding: 43px 64px 60px 64px;
+
+    &__inner {
+        display: flex;
+        margin-bottom: 144px;
+    }
+
+    &__inner img {
+        margin-right: 148px;
+    }
+
+    &__inner a {
+        color: #FFFFFF;
+
+    }
+
+    &__link {
+        margin-right: 20px;
+        font-size: 15px;
+        line-height: 17px;
+        font-family: 'Ubuntu-Regular', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    &__list {
+        display: flex;
+        margin-right: 112px;
+    }
+
+    &__phone {
+        font-family: 'Ubuntu-Bold', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        text-decoration: none;
+    }
+
+    &__btn {
+        padding: 7px 28px 6px 28px;
+        background-color: inherit;
+        color: #ffffff;
+        font-family: 'Ubuntu-Regular', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 17px;
+        border: 1px solid #FFFFFF;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 8px;
+    }
+}

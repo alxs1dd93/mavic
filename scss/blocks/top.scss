@@ -1,0 +1,22 @@
+.top {
+    text-align: center;
+
+    &__title {
+        font-family: 'SFProDisplay-Semibold', sans-serif;
+        font-weight: 600;
+        font-size: 96px;
+        line-height: 115px;
+        margin-bottom: 25px;
+    }
+
+    &__img {
+        margin-bottom: 35px;
+    }
+    &__social {
+        max-width: 220px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+}
